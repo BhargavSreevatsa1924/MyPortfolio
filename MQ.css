@@ -1,0 +1,64 @@
+@media (max-width:320px) {
+    body {
+        margin: 0;
+    }
+
+    .intro .info .reveal-text{
+        font-size: 20px;
+    }
+
+    .secondpage p {
+        max-width: 100%;
+        max-height: 50%;
+        font-size: 20px;
+        text-align: center;
+        word-break: normal;
+        word-spacing: 1px;
+        border: 1px solid aqua;
+        box-shadow: none;
+
+    }
+
+    #skills {
+        max-width: 100%;
+        max-height: auto;
+        margin: 0;
+
+    }
+
+    .form {
+        margin: auto;
+        max-width: 100%;
+        padding: 5px 0px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    input {
+        max-width: 60%;
+    }
+
+    .form textarea {
+        max-width: 80%;
+        margin: 0px 40px 0 0;
+    }
+
+    .submit-btn {
+        max-width: 100%;
+        margin: 0 30px 10px 0;
+        padding: 12px 20px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+}
